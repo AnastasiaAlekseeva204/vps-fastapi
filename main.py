@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-app = FastAPI(title="API Алексеевой Анастасии", version="1.0.4")
+app = FastAPI(title="API Алексеевой Анастасии", version="1.0.5")
 
 @app.get("/")
 def home():
