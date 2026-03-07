@@ -16,7 +16,7 @@ jobs:
           password: ${{ secrets.SSH_PASSWORD }}
           script: |
             cd /opt/vps-fastapi
-            git pull
+            git pull origin master
             source venv/bin/activate
             pip install -r requirements.txt
             sudo systemctl restart alekseeva-api
